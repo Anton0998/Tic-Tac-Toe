@@ -4,8 +4,8 @@ import { Dialog, DialogBackdrop, DialogPanel, DialogTitle } from '@headlessui/re
 
 export default function PlayerInput({handlePlayerSave}) {
   const [open, setOpen] = useState(true)
-  const [playerOne, setPlayerOne] = useState('X')
-  const [playerTwo, setPlayerTwo] = useState('O')
+  const [playerOne, setPlayerOne] = useState('')
+  const [playerTwo, setPlayerTwo] = useState('')
 
 
     const handleSubmit = (e) => {
