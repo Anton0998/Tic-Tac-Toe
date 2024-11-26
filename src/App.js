@@ -93,8 +93,8 @@ function App() {
         <h1 className="text-center text-4xl font-bold pb-6">Tic Tac Toe</h1>
         <div className="flex justify-between items-center px-24">
 
-          <p className="px-8 py-2 rouded"
-          style={{background: turn === playerOne 
+          <p className="px-8 py-2 rounded"
+          style={{background: turn === 'X' 
             ? 'rgb(219 234 254)' 
             : ''}}>
               {`${playerOne}: ${playerOneWins}`}
@@ -107,8 +107,8 @@ function App() {
             {isRunning ? 'Reset' : 'NewGame'}
           </button>
           
-          <p className="px-8 py-2 rouded" 
-          style={{background: turn === playerTwo 
+          <p className="px-8 py-2 rounded" 
+          style={{background: turn === 'O' 
             ? 'rgb(220 252 231)'
             : '' 
           }}
