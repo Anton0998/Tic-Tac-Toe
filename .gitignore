@@ -10,7 +10,7 @@
 
 # production
 /build
-/src/PlayerInput.jsx
+# /src/PlayerInput.jsx
 
 # misc
 .DS_Store
